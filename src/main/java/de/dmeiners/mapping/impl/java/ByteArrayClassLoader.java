@@ -2,6 +2,9 @@ package de.dmeiners.mapping.impl.java;
 
 public class ByteArrayClassLoader {
 
+    private ByteArrayClassLoader() {
+    }
+
     public static <T> Class<? extends T> classFromBytes(Class<T> baseClass, String name, byte[] bytecode) {
 
         return new ClassLoader(ByteArrayClassLoader.class.getClassLoader()) {

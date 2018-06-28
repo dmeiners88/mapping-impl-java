@@ -12,6 +12,9 @@ import java.util.Map;
 
 public class SourceCodeFactory {
 
+    private SourceCodeFactory() {
+    }
+
     public static String createSourceCode(String packageName, String className, String scriptText, Class<?> targetClass) {
 
         ParameterizedTypeName contextTypeName = ParameterizedTypeName.get(Map.class, String.class, Object.class);

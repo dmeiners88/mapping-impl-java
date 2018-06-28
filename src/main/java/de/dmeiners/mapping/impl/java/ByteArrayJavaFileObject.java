@@ -26,6 +26,8 @@ public class ByteArrayJavaFileObject extends SimpleJavaFileObject {
     @Override
     public OutputStream openOutputStream() throws IOException {
 
-        return outputStream = new ByteArrayOutputStream();
+        this.outputStream = new ByteArrayOutputStream();
+
+        return outputStream;
     }
 }

@@ -34,7 +34,7 @@ public class ByteArrayJavaFileManager extends ForwardingJavaFileManager<Standard
         try {
             return new URI(null, null, path, null);
         } catch (URISyntaxException e) {
-            throw new RuntimeException("exception parsing uri", e);
+            throw new RuntimeException("exception parsing uri", e); // NOSONAR
         }
     }
 }
