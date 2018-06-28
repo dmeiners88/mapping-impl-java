@@ -7,7 +7,7 @@
 image::https://travis-ci.com/dmeiners88/mapping-impl-java.svg?branch=develop["Build Status", link="https://travis-ci.com/dmeiners88/mapping-impl-java"]
 
 [.left]
-image::https://sonarcloud.io/api/project_badges/measure?project=de.dmeiners.mapping%3Amapping-impl-java&metric=alert_status[link="https://sonarcloud.io/api/project_badges/measure?project=de.dmeiners.mapping%3Amapping-impl-java&metric=alert_status"]
+image::https://sonarcloud.io/api/project_badges/measure?project=de.dmeiners.mapping%3Amapping-impl-java&metric=alert_status[link="https://sonarcloud.io/dashboard?id=de.dmeiners.mapping%3Amapping-impl-java"]
 --
 
 This is the Java-on-Java Implementation module for the Zero-Dependency Mapping Library.
